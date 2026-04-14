@@ -1,0 +1,11 @@
+# Chặn file chạy C++
+*.exe
+*.o
+*.out
+
+# Chặn file rác Python
+__pycache__/
+*.pyc
+
+# Chặn cấu hình riêng của VS Code
+.vscode/
