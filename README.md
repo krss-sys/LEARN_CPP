@@ -18,8 +18,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **2026-04-14**: 🚀 Initialized repository, configured Compiler, and linked GitHub Desktop. First "Hello World" pushed successfully!
-- **Up Next**: Mastering input/output and basic arithmetic operations.
+- **17-04-2026**: Understand the minimal C++ program structure. Practice `#include <iostream>`, `using namespace std`, `int main()`, curly braces {}, semicolon, `cout << "..."`, `endl`, and `return 0`.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
