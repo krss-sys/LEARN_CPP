@@ -18,7 +18,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **17-04-2026**: Understand the minimal C++ program structure. Practice `#include <iostream>`, `using namespace std`, `int main()`, curly braces {}, semicolon, `cout << "..."`, `endl`, and `return 0`.
+- **18-04-2026**: Day 2: Learned cin, made mistake with comma (cin >> a, b is wrong), fixed to `cin >> a >> b`. Also learned why string needs `#include <string>` but int doesn't.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
