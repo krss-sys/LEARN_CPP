@@ -18,7 +18,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **18-04-2026**: Day 2: Learned cin, made mistake with comma (cin >> a, b is wrong), fixed to `cin >> a >> b`. Also learned why string needs `#include <string>` but int doesn't.
+- **19-04-2026**: Learn char and bool data types. Understand that char is actually ASCII number. Distinguish between endl and `'\n'`. Practice input/output with char and bool, use boolalpha to print true/false.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
