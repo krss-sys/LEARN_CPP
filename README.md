@@ -18,7 +18,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **19-04-2026**: Learn char and bool data types. Understand that char is actually ASCII number. Distinguish between endl and `'\n'`. Practice input/output with char and bool, use boolalpha to print true/false.
+- **20-04-2026**: small exercises
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
