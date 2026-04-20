@@ -7,9 +7,8 @@ This repository serves as a personal archive for my journey into **C++** program
 ## 📂 Project Structure
 To keep things organized, the repository is structured as follows:
 
-* 📂 **01_Basics**: Foundational concepts (Variables, Data Types, Control Flow, etc.).
-* 📂 **02_Exercises**: Hands-on practice problems to strengthen logical thinking.
-* 📂 **03_Projects**: Small-scale applications and mini-projects.
+* 📂 **Learn**: Foundational concepts (Variables, Data Types, Control Flow, etc.).
+* 📂 **Homework**: Hands-on practice problems to strengthen logical thinking.
 
 ## 🛠️ Tech Stack
 * **Language:** C++ (Standard: C++17/20)
