@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **20-04-2026**: small exercises
+- **23-04-2026**: Practice const for immutable variables, auto for automatic type deduction. Combine both with const auto. Also review when to use #include <string> with string variables. And do exercise
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
