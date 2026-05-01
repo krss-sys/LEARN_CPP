@@ -7,7 +7,7 @@ This repository serves as a personal archive for my journey into **C++** program
 ## 📂 Project Structure
 To keep things organized, the repository is structured as follows:
 
-* 📂 **Learn**: Foundational concepts (Variables, Data Types, Control Flow, etc.).
+* 📂 **Learn**: Foundational concepts.
 * 📂 **Homework**: Hands-on practice problems to strengthen logical thinking.
 
 ## 🛠️ Tech Stack
@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **24-04-2026**: Learn arithmetic, relational, and logical operators. Practice type casting (static_cast). Understand the difference between integer and floating-point division.
+- **01-05-2026**: Practice if/else statements. Build a grade classifier based on average score.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
