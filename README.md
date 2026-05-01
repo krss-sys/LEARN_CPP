@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **01-05-2026**: Practice if/else statements. Build a grade classifier based on average score.
+- **01-05-2026**: Practice switch/case statements. Build a simple calculator supporting +, -, *, / with division-by-zero handling.Practice switch/case statements. Build a simple calculator supporting +, -, *, / with division-by-zero handling.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
