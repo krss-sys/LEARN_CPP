@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **01-05-2026**: 🎉 Chapter 1 completed! Learned C++ basics: variables, operators, if/else, switch/case, loops (for, while, do-while). Ready for functions and memory.
+- **08-05-2026**: do homework string basic
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
