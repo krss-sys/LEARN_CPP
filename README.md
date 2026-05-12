@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **08-05-2026**: do homework string basic
+- **13-05-2026**: Practice: extract first and last name from full string using find(), rfind(), and substr().
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
