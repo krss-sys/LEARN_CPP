@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-- **13-05-2026**: Practice: extract first and last name from full string using find(), rfind(), and substr().
+>Learned static 1D arrays in C++: declaration, initialization, accessing elements, traversing with for loops (forward/backward), input from user, calculating sum, finding min/max, counting evens/odds, creating subarrays. Practiced with a full statistics program for an integer array.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
