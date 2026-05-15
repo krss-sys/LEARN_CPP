@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
->Learned static 1D arrays in C++: declaration, initialization, accessing elements, traversing with for loops (forward/backward), input from user, calculating sum, finding min/max, counting evens/odds, creating subarrays. Practiced with a full statistics program for an integer array.
+>Practiced static arrays in C++: input, output, sum, min, max, counting evens/odds, filtering evens/odds into new arrays.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
