@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
->Practiced static arrays in C++: input, output, sum, min, max, counting evens/odds, filtering evens/odds into new arrays.
+> Learned 2D arrays (matrix): declaration, nested loops traversal, sum of all elements, row-wise sum, find maximum value.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
