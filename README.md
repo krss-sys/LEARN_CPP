@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learned 2D arrays (matrix): declaration, nested loops traversal, sum of all elements, row-wise sum, find maximum value.
+> Practiced 2D arrays in C++ by building a student grade analyzer — input grades, print table, calculate averages using static_cast, find max score, and count failing grades.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
