@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practiced 2D arrays in C++ by building a student grade analyzer — input grades, print table, calculate averages using static_cast, find max score, and count failing grades.
+> Learned functions basics: declaration, definition, return, void. Practiced with 4 functions: greet user by name (void), square of integer, average of three doubles, even/odd checker.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
