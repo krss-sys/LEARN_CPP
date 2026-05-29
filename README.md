@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learned functions basics: declaration, definition, return, void. Practiced with 4 functions: greet user by name (void), square of integer, average of three doubles, even/odd checker.
+> Learned pass by value. Parameters are copied; changes inside function do not affect original variables.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
