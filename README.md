@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learned pass by value. Parameters are copied; changes inside function do not affect original variables.
+> Practice pass by value with int, double, and string. Observed that changes inside functions do not affect original variables in main.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
