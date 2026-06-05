@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice pass by value with int, double, and string. Observed that changes inside functions do not affect original variables in main.
+> Learned pass by reference (int, double, string). Compared with pass by value. Practice: swap function, input function, uppercase first char, multiple return values, const reference for read-only.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
