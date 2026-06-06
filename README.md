@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learned pass by reference (int, double, string). Compared with pass by value. Practice: swap function, input function, uppercase first char, multiple return values, const reference for read-only.
+> Practice pass by reference with grade management program. Implemented input validation, average calculation, classification (Good/Fair/Average/Poor), and const reference for read-only output.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
