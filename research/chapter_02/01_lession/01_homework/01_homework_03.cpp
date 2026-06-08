@@ -2,60 +2,81 @@
 #include <string>
 using namespace std;
 
-// Khai báo nguyên mẫu hàm
-void nhapDiem(double &diem);
-void tinhTong(double a, double b, double c, double &tong); // Sửa lại: cần 3 điểm + 1 biến tong
-void tinhTrungBinh(double tong, int soMon, double &trungBinh);
-void xepLoai(double trungBinh, string &loai);
-void inKetQua(const string &ten, double trungBinh, const string &loai);
+void nhapDiem(double &toan, double &van, double &anh);
+void tinhKetQua(double toan, double van, double anh, double &diemTb, string &loai);
+void doiXepLoai(string &loai1, string &loai2);
+void inKetQua(const string &ten, const double &toan, const double &van, const double &anh, const double &diemTB, const string &xepLoai);
 
 int main() {
-    string ten, loai;
-    double diemToan, diemVan, diemAnh, tong, trungBinh;
+    string ten, loai, loaiMuonDoi;
+    double toan, van, anh, diemTb;
     
-    cout << "Hay nhap ten hoc sinh: ";
+    // Nhap ten hoc sinh
+    cout << "Nhap ten hoc sinh: ";
     getline(cin, ten);
 
-    cout << "Hay nhap diem toan: "; nhapDiem(diemToan);
-    cout << "Hay nhap diem van: "; nhapDiem(diemVan);
-    cout << "Hay nhap diem anh: "; nhapDiem(diemAnh);
+    // Nhap 3 diem
+    nhapDiem(toan, van, anh);
 
-    tinhTong(diemToan, diemVan, diemAnh, tong); // Gọi đúng 4 tham số
-    
-    int soMon = 3;
-    tinhTrungBinh(tong, soMon, trungBinh);
-    xepLoai(trungBinh, loai);
-    inKetQua(ten, trungBinh, loai);
+    // Tinh ket qua, Xep loai
+    tinhKetQua(toan, van, anh, diemTb, loai);
 
+    // Doi xep loai
+    cout << "Nhap loai xep hang muon doi: ";
+    cin >> loaiMuonDoi;
+    doiXepLoai(loai, loaiMuonDoi);
+
+    // In ket qua
+    inKetQua(ten, toan, van, anh, diemTb, loai);
     return 0;
 }
 
-// Định nghĩa các hàm
-void nhapDiem(double &diem) {
-    cin >> diem;
-    while (diem < 0 || diem > 10){
-        cout << "Nhap sai, nhap lai: ";
-        cin >> diem;
-    }
+void nhapDiem(double &toan, double &van, double &anh) {
+    bool hopLe;
+    
+    do {
+        hopLe = true;
+        cout << "Nhap lan luot diem Toan, Van, Anh: ";
+        cin >> toan >> van >> anh;
+
+        if(toan < 0 || toan > 10) {
+            cout << "Diem toan khong hop le!!!" << endl;
+            hopLe = false;
+        }
+        if(van < 0 || van > 10) {
+            cout << "Diem van khong hop le!!!" << endl;
+            hopLe = false;
+        }
+        if(anh < 0 || anh > 10) {
+            cout << "Diem anh khong hop le!!!" << endl;
+            hopLe = false;
+        }
+        if(!hopLe) {
+            cout << "Nhap lai ca 3 diem" << endl;
+        } 
+    } while(!hopLe);
 }
 
-void tinhTong(double a, double b, double c, double &tong) {
-    tong = a + b + c;
+void tinhKetQua(double toan, double van, double anh, double &diemTb, string &loai) {
+    diemTb = (toan + van + anh) / 3;
+    if(diemTb >= 8.5) loai = "Gioi";
+    else if(diemTb >= 7.0) loai = "Kha";
+    else if(diemTb >= 5.0) loai = "Trung binh";
+    else loai = "Yeu";
+    cout << "Xep Loai: " << loai << endl;
 }
 
-void tinhTrungBinh(double tong, int soMon, double &trungBinh) {
-    trungBinh = tong / soMon;
+void doiXepLoai(string &loai1, string &loai2) {
+    string temp = loai1;
+    loai1 = loai2;
+    loai2 = temp;
 }
 
-void xepLoai(double trungBinh, string &loai) {
-    if (trungBinh >= 8) loai = "Gioi";
-    else if (trungBinh >= 6.5) loai = "Kha";
-    else loai = "Trung binh";
+void inKetQua(const string &ten, const double &toan, const double &van, const double &anh, const double &diemTB, const string &xepLoai) {
+    cout << "\n==========Thong tin hoc sinh==========" << endl;
+    cout << "Ten hoc sinh: " << ten << endl;
+    cout << "Toan: " << toan << ", Van: " << van << ", Anh: " << anh << endl;
+    cout << "Diem trung binh mon: " << diemTB << ", Xep loai: " << xepLoai << endl;
 }
 
-void inKetQua(const string &ten, double trungBinh, const string &loai) {
-    cout << "\n--- Ket qua ---" << endl;
-    cout << "Hoc sinh: " << ten << endl;
-    cout << "Diem trung binh: " << trungBinh << endl;
-    cout << "Xep loai: " << loai << endl;
-}
+

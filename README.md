@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice pass by reference with grade management program. Implemented input validation, average calculation, classification (Good/Fair/Average/Poor), and const reference for read-only output.
+> Practice pass by reference with grade management. Functions: input validation (do-while), average & classification (if-else), swap classification (string), const reference for output.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
