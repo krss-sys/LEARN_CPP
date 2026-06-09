@@ -78,5 +78,3 @@ void inKetQua(const string &ten, const double &toan, const double &van, const do
     cout << "Toan: " << toan << ", Van: " << van << ", Anh: " << anh << endl;
     cout << "Diem trung binh mon: " << diemTB << ", Xep loai: " << xepLoai << endl;
 }
-
-

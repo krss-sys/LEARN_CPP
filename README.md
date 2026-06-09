@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice pass by reference with grade management. Functions: input validation (do-while), average & classification (if-else), swap classification (string), const reference for output.
+> Learn default arguments in functions. Write flexible functions with default parameter values. Combine with if-else for shipping fee calculation.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
