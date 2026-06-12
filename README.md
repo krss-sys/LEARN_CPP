@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice default arguments with shipping fee calculator. Combined with if-else, input validation, and invoice output.
+> Learn function overloading in C++. Multiple functions share the same name but different parameters (type, count, order). Practice with area calculation (rectangle, square, circle).
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
