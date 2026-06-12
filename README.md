@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn default arguments in functions. Write flexible functions with default parameter values. Combine with if-else for shipping fee calculation.
+> Practice default arguments with shipping fee calculator. Combined with if-else, input validation, and invoice output.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
