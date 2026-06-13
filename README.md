@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn function overloading in C++. Multiple functions share the same name but different parameters (type, count, order). Practice with area calculation (rectangle, square, circle).
+> Learn memory address (& operator) in C++. Practice getting addresses of variables (int, float, double, char), understand reference alias, and sizeof operator.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
