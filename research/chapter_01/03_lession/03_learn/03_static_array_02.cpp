@@ -18,9 +18,9 @@ int main() {
             maxVal = score[i];
         }
     }
-    cout << "So lon nhat la: "<< maxVal << endl;
+    cout << "So lon nhat la: " << maxVal << endl;
 
-    //Tim so nho nhat
+    // Tim so nho nhat
     int minVal = score[0];
     for (int i = 0; i < 5; i++) {
         if (score[i] < minVal) {

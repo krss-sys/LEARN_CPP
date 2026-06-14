@@ -10,7 +10,7 @@ int main() {
     cout << "Gia tri cua x: " << x << endl;
     cout << "Dia chi cua x: " << &x << endl;
     cout << "Dia chi cua y: " << &y << endl;
-    cout << "Dia chi cua z: " << (void*)&z << endl;
+    cout << "Dia chi cua z: " << (void *)&z << endl;
 
     cout << "=== 2. SO SANH DIA CHI CAC BIEN ===" << endl;
     int a = 10, b = 20, c = 30;
@@ -21,9 +21,9 @@ int main() {
 
     cout << " 3. DIA CHI VA THAM CHIEU ===" << endl;
     int value = 100;
-    int &ref = value; // tham chieu
+    int &ref = value;  // tham chieu
     cout << "Dia chi cua value: " << &value << endl;
-    cout << "Dia chi cua ref: " << &ref << endl; // Giong nhau
+    cout << "Dia chi cua ref: " << &ref << endl;  // Giong nhau
 
     cout << "=== 4. KICH THUOC DIA CHI ===" << endl;
     cout << "sizeof(&x): " << sizeof(&x) << " byte" << endl;

@@ -30,7 +30,7 @@ void swapSo(int &a, int &b) {
 
 //========= 4. XU LI CHUOI (TRANH COPY) ==========
 void vietHoaDau(string &s) {
-    if(s.size() > 0) {
+    if (s.size() > 0) {
         s[0] = toupper(s[0]);
     }
 }
@@ -43,7 +43,7 @@ void tinhToan(int a, int b, int &tong, int &hieu) {
 
 //========== 6. THAM CHIEU HANG (CONST &) ==========
 void inThongTin(const string &s) {
-    //chi doc khong sua (nhanh, an toan)
+    // chi doc khong sua (nhanh, an toan)
     cout << "Thong tin: " << s << endl;
 }
 
@@ -67,15 +67,15 @@ int main() {
     cout << "\n=== 3. Ham hoan doi ===" << endl;
     int x = 10, y = 20;
     cout << "Truoc khi nhap: x = " << x << ", y = " << y << endl;
-    swapSo(x,y);
+    swapSo(x, y);
     cout << "Sau swap: x = " << x << ", y = " << y << endl;
-    
+
     cout << "\n=== 4. XU li chuoi ===" << endl;
     string ten = "kiet";
     cout << "Truoc: " << ten << endl;
     vietHoaDau(ten);
     cout << "Sau: " << ten << endl;
-    
+
     cout << "\n=== 5. Tra ve nhieu gia tri ===" << endl;
     int tong, hieu;
     tinhToan(15, 7, tong, hieu);
@@ -86,5 +86,5 @@ int main() {
     string msg = "Hello world";
     inThongTin(msg);
 
-    return 0 ;
+    return 0;
 }

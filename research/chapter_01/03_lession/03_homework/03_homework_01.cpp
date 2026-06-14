@@ -1,6 +1,7 @@
+#include <cctype>
 #include <iostream>
 #include <string>
-#include <cctype>
+
 using namespace std;
 
 int main() {
@@ -22,7 +23,7 @@ int main() {
     for (int i = 0; i < ho_ten.size(); i++) {
         c = tolower(ho_ten[i]);
         if (c == ki_tu) {
-        dem++;
+            dem++;
         }
     }
     cout << "ki tu: " << ki_tu << " da xuat hien: " << dem << " lan" << endl;
@@ -36,7 +37,7 @@ int main() {
         cout << "KO" << endl;
     }
     cout << A << endl;
-    
+
     string bakitudau = ho_ten.substr(0, 3);
     for (int e = 0; e < bakitudau.size(); e++) {
         bakitudau[e] = toupper(bakitudau[e]);

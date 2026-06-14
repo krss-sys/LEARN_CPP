@@ -17,29 +17,29 @@ int main() {
 
     cout << "=== In bang diem ===" << endl;
     for (int i = 0; i < rows; i++) {
-        cout << "Diem cua em " << i+1 << " :";
+        cout << "Diem cua em " << i + 1 << " :";
         for (int j = 0; j < cols; j++) {
             cout << bangdiem[i][j] << " ";
         }
         cout << endl;
     }
-    
+
     cout << "=== DIem trung binh ===" << endl;
     for (int i = 0; i < rows; i++) {
         int stt = i;
         int tong = 0;
-        cout << "Diem trung binh cua em " << i+1 << " :";
+        cout << "Diem trung binh cua em " << i + 1 << " :";
         for (int j = 0; j < cols; j++) {
             tong += bangdiem[i][j];
         }
-        cout << static_cast<double>(tong)/4 << endl;
+        cout << static_cast<double>(tong) / 4 << endl;
     }
     cout << endl;
 
     cout << "=== DIem cao nhat ===" << endl;
     int GTLN = bangdiem[0][0];
     for (int i = 0; i < rows; i++) {
-        for(int j = 0; j < cols; j++) {
+        for (int j = 0; j < cols; j++) {
             if (GTLN < bangdiem[i][j]) {
                 GTLN = bangdiem[i][j];
             }

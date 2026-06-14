@@ -18,11 +18,7 @@ int main() {
 }
 
 // DInh nghia ham tinhTong
-int tinhTong(int a, int b) {
-    return a + b; 
-}
+int tinhTong(int a, int b) { return a + b; }
 
 // Dinh nghia ham inChao
-void inChao() {
-    cout << "Xin chao!" << endl;
-}
+void inChao() { cout << "Xin chao!" << endl; }

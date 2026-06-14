@@ -31,7 +31,7 @@ void inHoaDon(double phiCoBan, double phiSauGiam) {
     cout << "Phi co ban: " << phiCoBan << " VND" << endl;
     cout << "Phi sau giam: " << phiSauGiam << " VND" << endl;
     cout << "Tiet kiem: " << phiCoBan - phiSauGiam << " VND" << endl;
-} 
+}
 
 int main() {
     double khoangCach, canNang;
@@ -39,7 +39,8 @@ int main() {
     string ten;
     cout << "Vui long nhap ten khach hang: ";
     getline(cin, ten);
-    cout << "Vui long nhap lan luot khoang cach, can nang, hang de vo (1 la de vo, 0 la khong): " << endl;
+    cout << "Vui long nhap lan luot khoang cach, can nang, hang de vo (1 la de vo, 0 la khong): "
+         << endl;
     cin >> khoangCach >> canNang >> deVo;
     double phi = tinhPhiCoBan(khoangCach, canNang, deVo);
     double phiSauGiam = tinhPhiSauGiam(phi);

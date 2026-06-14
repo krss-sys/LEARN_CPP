@@ -14,7 +14,7 @@ int main() {
     cout << "Gia tri cua c: " << c << endl;
     cout << "Dia chi cua c: " << &c << endl;
     cout << "Gia tri cua d: " << d << endl;
-    cout << "Dia chi cua d: " << (void*) &d << endl;
+    cout << "Dia chi cua d: " << (void *)&d << endl;
 
     cout << "\n=== 2. DIA CHI VA THAM CHIEU ===" << endl;
     int value = 100;

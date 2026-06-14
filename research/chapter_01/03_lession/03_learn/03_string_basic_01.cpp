@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-int main(){
-    string s= "Hello";
+int main() {
+    string s = "Hello";
 
     // Nối
     s += " World";

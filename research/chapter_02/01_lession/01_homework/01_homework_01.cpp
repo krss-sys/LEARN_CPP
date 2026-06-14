@@ -25,7 +25,7 @@ int main() {
     double a, b, c;
     cout << "Nhap 3 so thuc bat ki: ";
     cin >> a >> b >> c;
-    double diemtb = tinhTrungBinh(a,b,c);
+    double diemtb = tinhTrungBinh(a, b, c);
     cout << "diem trung binh 3 so la: " << diemtb << endl;
 
     cout << "\n===Goi ham kiemtraChanLe===" << endl;
@@ -37,17 +37,11 @@ int main() {
     return 0;
 }
 
-void inChao(string ten) {
-    cout << "Xin chao " << ten << ". Chuc ban ngay moi tot lanh" << endl;
-}
+void inChao(string ten) { cout << "Xin chao " << ten << ". Chuc ban ngay moi tot lanh" << endl; }
 
-int binhPhuong(int x) {
-    return x*x ;
-}
+int binhPhuong(int x) { return x * x; }
 
-double tinhTrungBinh(double a, double b, double c) {
-    return (a + b + c) / 3;
-}
+double tinhTrungBinh(double a, double b, double c) { return (a + b + c) / 3; }
 
 void kiemtraChanLE(int n) {
     if (n % 2 == 0) {

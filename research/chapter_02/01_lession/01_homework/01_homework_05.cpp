@@ -12,9 +12,9 @@ double tinhDienTich(double canh) {
 }
 
 double tinhDienTich(double banKinh, bool laHinhTron) {
-    if(laHinhTron == true) {
+    if (laHinhTron == true) {
         cout << "\nDien tich hinh tron: ";
-        return 3.14 * banKinh *banKinh;
+        return 3.14 * banKinh * banKinh;
     }
     return 0;
 }

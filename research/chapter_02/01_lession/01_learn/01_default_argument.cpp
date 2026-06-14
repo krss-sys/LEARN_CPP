@@ -5,9 +5,7 @@ using namespace std;
 //========== CU PHAP CO BAN ==========
 // Gia tri mac dinh duoc gan tai tham so
 
-void chao(string ten = "Quy Khach") {
-    cout << "Xin chao: " << ten << "!" << endl;
-}
+void chao(string ten = "Quy Khach") { cout << "Xin chao: " << ten << "!" << endl; }
 
 //========== NHIEU THAM SO MAC DINH =========
 // luu y: tham so co default phai dung cuoi
@@ -16,9 +14,7 @@ void thongTin(string ten = "Khach", int tuoi = 19, string que = "Ha Noi") {
 }
 
 //========== KET HOP VOI TAHM TRI ==========
-int tinhTong(int a, int b = 20) {
-    return a + b;
-}
+int tinhTong(int a, int b = 20) { return a + b; }
 
 //========== KET HOP VOI IF ==========
 double tinhPhiShip(double giaTriDon, double phiShipMacDinh = 30000) {
@@ -30,26 +26,20 @@ double tinhPhiShip(double giaTriDon, double phiShipMacDinh = 30000) {
 
 //========== KET HOP VOI VONG LAP ==========
 void inMenu(int soLanLap = 3) {
-    for(int i = 0; i < soLanLap; i++) {
+    for (int i = 0; i < soLanLap; i++) {
         cout << "1. Choi game\n2. Xem diem\n3. Thoat\n";
     }
 }
 
 //========== SO SANH THAM TRI, THAM CHIEU VA DEFAULT ==========
-void thamTri(int x) {
-    x = 100;
-}
+void thamTri(int x) { x = 100; }
 
-void thamChieu(int &x) {
-    x = 100;
-}
+void thamChieu(int &x) { x = 100; }
 
-void coDefault(int x, int y = 200) {
-    cout << "x: " << x << "; y: " << y << endl;
-}
+void coDefault(int x, int y = 200) { cout << "x: " << x << "; y: " << y << endl; }
 
 int main() {
-    cout <<  "=== 1. Cach dung co ban ===" << endl;
+    cout << "=== 1. Cach dung co ban ===" << endl;
     chao();
     chao("Tuan");
     chao();
@@ -58,7 +48,7 @@ int main() {
     thongTin();
     thongTin("Mai");
     thongTin("Mai", 20);
-    thongTin("Mai", 20 , "HCM");
+    thongTin("Mai", 20, "HCM");
 
     cout << "=== 3. Ket hop voi tham tri ===" << endl;
     cout << "tinhTong(5): " << tinhTong(5) << endl;
@@ -83,14 +73,14 @@ int main() {
 
     thamChieu(a);
     cout << "Sau thamChieu: a = " << a << endl;
-    
+
     coDefault(5);
     coDefault(5, 100);
 
     cout << "\n=== 7. Loi thuong gap ===" << endl;
     cout << "Loi 1: tham so co default phai dung cuoi" << endl;
     cout << "Sai: void ham(int x = 10 , int y)" << endl;
-    cout << "Loi 2: khong the co default cho tham chieu" ;
+    cout << "Loi 2: khong the co default cho tham chieu";
 
     return 0;
 }

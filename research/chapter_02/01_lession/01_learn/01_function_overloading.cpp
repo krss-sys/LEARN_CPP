@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//1. Khac kieu tham so
+// 1. Khac kieu tham so
 int tinhTong(int a, int b) {
     cout << "int version: ";
     return a + b;
@@ -12,7 +12,7 @@ double tinhTong(double a, double b) {
     return a + b;
 }
 
-//2. Khac so luong tham so 
+// 2. Khac so luong tham so
 int tich(int a, int b, int c) {
     cout << "3 Tham so: ";
     return a * b * c;
@@ -22,13 +22,9 @@ int tich(int a, int b) {
     return a * b;
 }
 
-//3. Khac thu tu tham so
-void in(string ten, int tuoi) {
-    cout << "Ten: " << ten << " ;Tuoi: " << tuoi << endl;
-}
-void in(int tuoi, string ten) {
-    cout << "Tuoi: " << tuoi << "; Ten: " << ten << endl;
-}
+// 3. Khac thu tu tham so
+void in(string ten, int tuoi) { cout << "Ten: " << ten << " ;Tuoi: " << tuoi << endl; }
+void in(int tuoi, string ten) { cout << "Tuoi: " << tuoi << "; Ten: " << ten << endl; }
 
 int main() {
     cout << "=== 1. Khac kieu tham so ===" << endl;

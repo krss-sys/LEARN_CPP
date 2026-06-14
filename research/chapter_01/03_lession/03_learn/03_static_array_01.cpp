@@ -22,7 +22,7 @@ int main() {
         cout << arr2[i] << " ";
     }
     cout << endl;
-    
+
     // ===================== Truy cap phan tu ============================
     cout << "\n=== Phan 2: Truy cap phan tu ===" << endl;
     int arr[5] = {5, 10, 15, 20, 25};
@@ -30,20 +30,20 @@ int main() {
     cout << "Phan tu thu 3 (arr[2]): " << arr[2] << endl;
     cout << "Phan tu cuoi cung (arr[4]): " << arr[4] << endl;
 
-    //Thay doi gia tri
+    // Thay doi gia tri
     arr[1] = 99;
     cout << "sau khi sua cua arr[1]: " << arr[1] << endl;
 
     // =============== Phan 3: Duyet mang vong lap for===================
     cout << "\n=== Phan 3: Duyet mang bang vong lap For ===" << endl;
     int number[5] = {2, 4, 6, 8, 10};
-    //Duyet xuoi
+    // Duyet xuoi
     cout << "Duyet xuoi: ";
     for (int i = 0; i < 5; i++) {
         cout << number[i] << " ";
     }
     cout << endl;
-    //Duyet nguoc
+    // Duyet nguoc
     cout << "Duyet nguoc: ";
     for (int i = 4; i >= 0; i--) {
         cout << number[i] << " ";
@@ -55,7 +55,7 @@ int main() {
     const int SIZE = 5;
     int data[SIZE];
     cout << "Nhap " << SIZE << " so nguyen: " << endl;
-    for ( int i = 0; i < SIZE; i++) {
+    for (int i = 0; i < SIZE; i++) {
         cin >> data[i];
     }
     cout << "Mang vua nhap: ";
@@ -63,6 +63,6 @@ int main() {
         cout << data[i] << " ";
     }
     cout << endl;
-    
+
     return 0;
 }

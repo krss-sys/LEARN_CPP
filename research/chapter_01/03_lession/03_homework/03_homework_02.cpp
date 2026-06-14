@@ -11,11 +11,11 @@ int main() {
     // Nhap so Phan tu
     cout << "Nhap so phan tu can tinh (toi da 100): ";
     cin >> n;
-    if(n < 1 || n > MAX) {
+    if (n < 1 || n > MAX) {
         cout << "Khong hop le" << endl;
     } else {
         cout << "Nhap tung gia tri: ";
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             cin >> arr[i];
         }
     }
@@ -29,23 +29,23 @@ int main() {
 
     // tinh tong
     int sum = 0;
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         sum += arr[i];
     }
     cout << "Tong: " << sum << endl;
 
     // GTLN, GTNN
     int maxVal = arr[0];
-    for(int i = 0; i < n; i++) {
-        if(arr[i] > maxVal) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] > maxVal) {
             maxVal = arr[i];
         }
     }
-    cout << "GTLN: " << maxVal <<endl;
+    cout << "GTLN: " << maxVal << endl;
 
     int minVal = arr[0];
-    for(int i = 0; i < n; i++) {
-        if(arr[i] < minVal) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] < minVal) {
             minVal = arr[i];
         }
     }
@@ -54,21 +54,21 @@ int main() {
     // Dem so chan
     int dem = 0;
     cout << "Cac so chan bao gom: ";
-    for(int i = 0; i < n; i++) {
-        if(arr[i] % 2 == 0) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] % 2 == 0) {
             cout << arr[i] << " ";
             dem++;
         }
     }
-    if(dem == 0) {
+    if (dem == 0) {
         cout << "Khong co so chan!!!!" << endl;
     }
     cout << "\nTong so chan la: " << dem << endl;
 
     // Mang so le
     int demsl = 0;
-    for(int i = 0; i < n; i++) {
-        if(arr[i] % 2 != 0) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] % 2 != 0) {
             demsl++;
             newarr[newsl] = arr[i];
             newsl++;
@@ -78,9 +78,9 @@ int main() {
 
     // in mang moi
     cout << "Liet ke: ";
-    for(int i = 0; i < demsl; i++) {
+    for (int i = 0; i < demsl; i++) {
         cout << newarr[i] << " ";
     }
-    
+
     return 0;
 }
