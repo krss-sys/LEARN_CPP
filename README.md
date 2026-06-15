@@ -7,17 +7,17 @@ This repository serves as a personal archive for my journey into **C++** program
 ## 📂 Project Structure
 To keep things organized, the repository is structured as follows:
 
-* 📂 **Learn**: Foundational concepts.
-* 📂 **Homework**: Hands-on practice problems to strengthen logical thinking.
+* 📂 **research/**: Foundational concepts and core language research.
+* 📂 **homework/**: Hands-on practice problems to strengthen logical thinking.
 
-## 🛠️ Tech Stack
-* **Language:** C++ (Standard: C++17/20)
-* **Compiler:** MinGW-w64 (UCRT64)
-* **Editor:** VS Code + C/C++ Extension Pack
-* **Version Control:** Git & GitHub Desktop
+## 🛠️ Tech Stack & Environment
+* **Language Standard:** C++17 / C++20 / C++23 Support
+* **Compiler:** MinGW-w64 (GCC 15.2.0 / UCRT64)
+* **IDE/Editor:** VS Code (with C/C++ Extension Pack)
+* **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn memory address (& operator) in C++. Practice getting addresses of variables (int, float, double, char), understand reference alias, and sizeof operator.
+> Learn pointers basics (declare, assign address, dereference). Practice changing variable value through pointer.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
