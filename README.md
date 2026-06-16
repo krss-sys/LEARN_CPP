@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn pointers basics (declare, assign address, dereference). Practice changing variable value through pointer.
+> Learn relationship between pointers and arrays. Practice: array name as pointer, accessing elements via pointer, traversing array using pointer (offset + sliding), modifying values through pointer, sizeof differences.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
