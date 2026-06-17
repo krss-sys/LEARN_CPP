@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn function pointers in C++: declare, assign, call via pointer, pass as parameter, use using alias. Practice callback mechanism with flexible math operations.
+> Practice function pointers: declare, assign, call, pass as parameter, return from function. Build a flexible math operator selector (cong, tru, nhan, chia) using callback mechanism.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
