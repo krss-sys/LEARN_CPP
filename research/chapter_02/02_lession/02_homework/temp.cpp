@@ -1,90 +1,102 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
-// =========================================================================
-// STEP 1: ĐỊNH NGHĨA KIỂU CON TRỎ HÀM (STRATEGY INTERFACE)
-// =========================================================================
-// ChienLuocGiamGia là một kiểu dữ liệu mới: đại diện cho các hàm nhận vào double, trả về double.
-using ChienLuocGiamGia = double(*)(double);
-
-
-// =========================================================================
-// STEP 2: VIẾT CÁC HÀM LOGIC GIẢM GIÁ (CONCRETE STRATEGIES)
-// =========================================================================
-
-// Chiến lược 1: Giảm thẳng 50% cho ngày Black Friday
-double giamGiaBlackFriday(double giaGoc) {
-    return giaGoc * 0.5;
-}
-
-// Chiến lược 2: Giảm giá cho khách VIP (Trên 500 giảm 20%, ngược lại giảm 10%)
-double giamGiaKhachVIP(double giaGoc) {
-    if (giaGoc > 500.0) {
-        return giaGoc * 0.8; // Giảm 20% tức là tính tiền 80%
+//========== 1. CAC HAM CO BAN ==========
+int cong(int a, int b) { return a + b; }
+int tru(int a, int b) { return a - b; }
+int nhan(int a, int b) { return a * b; }
+int chia(int a, int b) {
+    if (b == 0) {
+        cout << "Loi: chia cho 0" << endl;
+        return 0;
     }
-    return giaGoc * 0.9;     // Giảm 10% tức là tính tiền 90%
+    return a / b;
 }
 
-// Chiến lược 3: Không giảm giá (Khách vãng lai)
-double koGiamGia(double giaGoc) {
-    return giaGoc;
+//========== 2. KHAI BAO CON TRO HAM ==========
+// Cach 1: khai bao truc tiep
+int (*phepTinh)(int, int);
+// Cach 2: Dung using
+using phepToan = int (*)(int, int);
+
+//========== 3. HAM NHAN CON TRO HAM ==========
+void inPhepToan(int x, int y, phepToan ptr, string ten) {
+    cout << ten << "(" << x << ", " << y << ") = " << ptr(x, y) << endl;
 }
 
+void thucHienPhepToan(int x, int y, phepToan ptr, string ten) {
+    cout << "===Thuc hien phep toan===" << endl;
+    cout << "Phep toan: " << ten << endl;
+    cout << "Input: " << x << ", " << y << endl;
+    cout << "Output: " << ptr(x, y) << endl;
+}
 
-// =========================================================================
-// STEP 3: HÀM CỐT LÕI - NHẬN CON TRỎ HÀM LÀM THAM SỐ (THE CALLBACK)
-// =========================================================================
-void tinhTienDonHang(double danhSachDonHang[], int soLuong, ChienLuocGiamGia apDung) {
-    double tongDoanhThu = 0.0;
+//========== 4. HAM TRA VE CON TRO HAM ===========
+phepToan chonPhepToan(string &tenPhepToan) {
+    int choice;
+    do {
+        cout << "1. Cong" << endl;
+        cout << "2. Tru" << endl;
+        cout << "3. Nhan" << endl;
+        cout << "4. Chia" << endl;
+        cout << "Chon phep toan 1-4: ";
+        cin >> choice;
+        if (choice >= 1 && choice <= 4) {
+            break;
+        } else {
+            cout << "Nhap khong hop le, Nhap lai!!!!" << endl;
+        }
+    } while (true);
 
-    for (int i = 0; i < soLuong; i++) {
-        double giaGoc = danhSachDonHang[i];
-        
-        // ĐỈNH CAO Ở ĐÂY: Gọi hàm thông qua con trỏ hàm 'apDung'
-        // Hệ thống đéo cần biết đang giảm giá kiểu gì, cứ ném tiền gốc vào con trỏ hàm là ra tiền sau giảm!
-        double giaSauGiam = apDung(giaGoc); 
-        
-        cout << "  + Don hang nuoc ngoai [" << i + 1 << "] - Gia goc: $" << giaGoc 
-             << " -> Sau giam: $" << giaSauGiam << endl;
-             
-        tongDoanhThu += giaSauGiam;
+    switch (choice) {
+        case 1:
+            tenPhepToan = "Cong";
+            return cong;
+        case 2:
+            tenPhepToan = "Tru";
+            return tru;
+        case 3:
+            tenPhepToan = "Nhan";
+            return nhan;
+        case 4:
+            tenPhepToan = "Chia";
+            return chia;
+        default: return nullptr;
     }
-
-    cout << " ==> TONG DOANH THU HỆ THỐNG THU VỀ: $" << tongDoanhThu << endl;
 }
 
-
-// =========================================================================
-// STEP 4: HÀM MAIN - KÍCH HOẠT HỆ THỐNG ĐỘNG
-// =========================================================================
+//========== 5. MAIN ==========
 int main() {
-    // Mảng chứa giá gốc của 4 đơn hàng hiện tại trong hệ thống
-    double hoaDon[] = {150.0, 600.0, 300.0, 1000.0};
-    int n = sizeof(hoaDon) / sizeof(hoaDon[0]);
+    cout << "=== 1. CON TRO HAM CO BAN ===" << endl;
+    //   GAN VA GOI QUA CON TRO
+    phepToan ptr = cong;
+    cout << "ptr dang tro den cong: " << ptr(10, 5) << endl;
+    ptr = tru;
+    cout << "ptr dang tro den tru: " << ptr(10, 5) << endl;
+    ptr = nhan;
+    cout << "ptr dang tro den nhan: " << ptr(10, 5) << endl;
 
-    cout << "==================================================" << endl;
-    cout << "1. QUÉT ĐƠN HÀNG: ĐỢT SIÊU GIẢM GIÁ BLACK FRIDAY" << endl;
-    cout << "==================================================" << endl;
-    // Truyền hàm giamGiaBlackFriday vào làm tham số động
-    tinhTienDonHang(hoaDon, n, giamGiaBlackFriday);
+    cout << "\n=== 2. TRUYEN CON TRO VAO HAM KHAC ===" << endl;
+    inPhepToan(10, 5, cong, "Cong");
+    inPhepToan(10, 5, tru, "Tru");
+    inPhepToan(10, 5, nhan, "Nhan");
+    inPhepToan(10, 5, chia, "Chia");
 
+    cout << "\n=== 3. HAM TRA VE CON TRO HAM ===" << endl;
+    int a, b;
+    cout << "Nhap a va b: ";
+    cin >> a >> b;
+    // CHON PHEP TOAN
+    string ten = " ";
+    phepToan ptrChon = chonPhepToan(ten);
 
-    cout << "\n==================================================" << endl;
-    cout << "2. QUÉT ĐƠN HÀNG: ĐỐI TƯỢNG KHÁCH HÀNG VIP" << endl;
-    cout << "==================================================" << endl;
-    // Truyền hàm giamGiaKhachVIP vào làm tham số động
-    tinhTienDonHang(hoaDon, n, giamGiaKhachVIP);
+    thucHienPhepToan(a, b, ptrChon, ten);
 
-
-    cout << "\n==================================================" << endl;
-    cout << "3. QUÉT ĐƠN HÀNG: ĐỐI TƯỢNG KHÁCH VÃNG LAI" << endl;
-    cout << "==================================================" << endl;
-    // Truyền hàm koGiamGia vào làm tham số động
-    tinhTienDonHang(hoaDon, n, koGiamGia);
-
-    cout << "==================================================" << endl;
+    cout << "\n=== 4. UNG DUNG THUC TE ===" << endl;
+    cout << "- Truyen ham vao ham khac (callback)" << endl;
+    cout << "- Chon ham dong khi chay (menu)" << endl;
+    cout << "- Code linh hoat, de mo rong" << endl;
 
     return 0;
 }

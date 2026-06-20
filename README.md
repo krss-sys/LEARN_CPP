@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice function pointers: declare, assign, call, pass as parameter, return from function. Build a flexible math operator selector (cong, tru, nhan, chia) using callback mechanism.
+> Practice function pointers – declare, assign, pass as parameter, return from function. Built a flexible math operator selector with callback mechanism and name handling via reference.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
