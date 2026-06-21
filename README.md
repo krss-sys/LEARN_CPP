@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice function pointers – declare, assign, pass as parameter, return from function. Built a flexible math operator selector with callback mechanism and name handling via reference.
+> Learn dynamic memory allocation in C++ (new/delete, new[]/delete[]). Understand stack vs heap, memory leak, and nullptr. Practice with dynamic arrays and callbacks.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥

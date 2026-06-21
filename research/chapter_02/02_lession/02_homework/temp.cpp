@@ -62,7 +62,8 @@ phepToan chonPhepToan(string &tenPhepToan) {
         case 4:
             tenPhepToan = "Chia";
             return chia;
-        default: return nullptr;
+        default:
+            return nullptr;
     }
 }
 
