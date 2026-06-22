@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int* nhapDanhSach(int &n) {
+int* nhapDanhSach(int& n) {
     cout << "Nhap so phan tu: ";
     cin >> n;
     int* arr = new int[n];
@@ -12,7 +12,7 @@ int* nhapDanhSach(int &n) {
     return arr;
 }
 
-void  inDanhSach(int* arr, int n) {
+void inDanhSach(int* arr, int n) {
     cout << "[ ";
     for (int i = 0; i < n; i++) {
         cout << arr[i];
@@ -34,15 +34,15 @@ int tinhTong(int* arr, int n) {
 int timSoLonNhat(int* arr, int n) {
     int GTLN = arr[0];
     for (int i = 0; i < n; i++) {
-        if(GTLN < arr[i]) {
+        if (GTLN < arr[i]) {
             GTLN = arr[i];
         }
     }
     return GTLN;
 }
 
-int* danhSachMoi(int* arr, int n, int &newSize) {
-    do{
+int* danhSachMoi(int* arr, int n, int& newSize) {
+    do {
         cout << "Nhap so phan tu cua mang moi: ";
         cin >> newSize;
         if (newSize > n) {
@@ -50,10 +50,10 @@ int* danhSachMoi(int* arr, int n, int &newSize) {
         } else {
             cout << "Loi: so phan tu mang moi khong duoc nho hon mang cu" << endl;
         }
-    } while(true);
-    
+    } while (true);
+
     int* newArr = new int[newSize];
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
         newArr[i] = arr[i];
     }
     for (int i = n; i < newSize; i++) {
