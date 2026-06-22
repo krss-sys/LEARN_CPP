@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn dynamic memory allocation in C++ (new/delete, new[]/delete[]). Understand stack vs heap, memory leak, and nullptr. Practice with dynamic arrays and callbacks.
+> Practice dynamic memory allocation (new[]/delete[]) with array operations: input, print, sum, max, extend array (with input validation), and cleanup with nullptr.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
