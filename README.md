@@ -17,7 +17,7 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice dynamic memory allocation (new[]/delete[]) with array operations: input, print, sum, max, extend array (with input validation), and cleanup with nullptr.
+> Learn when to use pass by value, reference, and pointer. Understand differences and use cases.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
