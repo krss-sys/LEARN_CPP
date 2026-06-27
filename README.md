@@ -17,6 +17,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn const reference (const T&). Understand when to use value, reference, const reference, and pointer.
+> Learn and Practice dynamic 2D array allocation (new[]/delete[]). Build a grade manager with input validation, student average, max average, subject average, and proper cleanup with nullptr.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
