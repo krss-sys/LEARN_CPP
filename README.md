@@ -17,6 +17,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn and Practice dynamic 2D array allocation (new[]/delete[]). Build a grade manager with input validation, student average, max average, subject average, and proper cleanup with nullptr.
+> Review dynamic 2D array allocation. Practice safe memory management: proper deletion order (rows before pointer array), and array resizing using new[] + copy (C++ alternative to realloc). Applied in a matrix expansion exercise.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
