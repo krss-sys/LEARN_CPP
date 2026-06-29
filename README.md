@@ -1,6 +1,6 @@
 # 🛡️ LEARN_CPP: From Zero to Systems
 
-This repository serves as a personal archive for my journey into **C++** programming. My goal is to master low-level system concepts and eventually apply them to **Artificial Intelligence** development.
+This repository serves as a personal archive for my C++ learning journey — from language fundamentals to low-level systems programming. My goal is to build the technical foundation required for distributed systems and infrastructure engineering.
 
 ---
 
