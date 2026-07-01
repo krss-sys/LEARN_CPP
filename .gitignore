@@ -1,11 +1,37 @@
-# Chặn file chạy C++
+# ====================================================================
+# 1. CHẶN TẤT CẢ FILE TRÊN LINUX (ĐỂ DIỆT FILE THỰC THI KHÔNG ĐUÔI)
+# ====================================================================
+*
+
+# ====================================================================
+# 2. NGOẠI TRỪ (GIỮ LẠI) CÁC FILE CODE VÀ TÀI LIỆU QUAN TRỌNG
+# ====================================================================
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!.gitignore
+!.clang-format
+
+# Giữ lại cấu hình thư mục nếu có
+!**/
+
+# ====================================================================
+# 3. CHẶN FILE RÁC PYTHON & CÁC HỆ ĐIỀU HÀNH KHÁC
+# ====================================================================
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C++ truyền thống (Windows/Mac)
 *.exe
 *.o
 *.out
+*.obj
 
-# Chặn file rác Python
-__pycache__/
-*.pyc
-
-# Chặn cấu hình riêng của VS Code
+# Hệ thống & VS Code
 .vscode/
+.DS_Store
+Thumbs.db

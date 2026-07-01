@@ -17,6 +17,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Review dynamic 2D array allocation. Practice safe memory management: proper deletion order (rows before pointer array), and array resizing using new[] + copy (C++ alternative to realloc). Applied in a matrix expansion exercise.
+> Learn struct in C++. Practice grouping related data (name, age, score) into a single custom type. Build a student management program with input/output for multiple students.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
