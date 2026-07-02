@@ -17,6 +17,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn struct in C++. Practice grouping related data (name, age, score) into a single custom type. Build a student management program with input/output for multiple students.
+> Learn class attributes and methods in C++. Build a book management class with input, output, classification (long/short), author check, and year update. Practice encapsulation with private attributes and public methods.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
