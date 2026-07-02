@@ -3,13 +3,13 @@
 using namespace std;
 
 class ThongTinSach {
-private:
+   private:
     string tuaSach;
     string tacGia;
     int namXuatBan;
     int soTrang;
 
-public:
+   public:
     void nhap() {
         cout << "Nhap ten sach: ";
         getline(cin, tuaSach);
@@ -29,20 +29,18 @@ public:
     }
 
     string loaiSach() {
-        if(soTrang > 300) return "Dai";
+        if (soTrang > 300) return "Dai";
         return "Ngan";
     }
 
     string kiemTraSach(string tenTacGia) {
-        if(tenTacGia == tacGia){
+        if (tenTacGia == tacGia) {
             return "Chuan";
         }
         return "Sai roi";
     }
 
-    void capNhatNam(int namMoi) {
-        namXuatBan = namMoi;
-    }
+    void capNhatNam(int namMoi) { namXuatBan = namMoi; }
 };
 
 int main() {
