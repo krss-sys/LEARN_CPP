@@ -17,6 +17,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn class attributes and methods in C++. Build a book management class with input, output, classification (long/short), author check, and year update. Practice encapsulation with private attributes and public methods.
+> Practice access specifiers (public, private, protected) with inheritance. Build a person-student class hierarchy. Observe which members are accessible from main and subclass.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
