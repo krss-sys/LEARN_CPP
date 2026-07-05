@@ -17,6 +17,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git v2.53.0 & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice constructor and destructor with a product management class. Implement default constructor, parameterized constructor, input/output methods, total value calculation, and destructor with cleanup message.
+> Learn this pointer. Practice building a bank account class with deposit, withdraw, display, and method chaining for updating account holder name.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
