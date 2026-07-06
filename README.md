@@ -11,10 +11,11 @@ To keep things organized, the repository is structured as follows:
 * 📂 **homework/**: Hands-on practice problems to strengthen logical thinking.
 
 ## 🛠️ Tech Stack & Environment
+* **Environment:** Windows Subsystem for Linux (WSL2) - Ubuntu
 * **Language Standard:** C++17 / C++20 / C++23 Support
-* **Compiler:** MinGW-w64 (GCC 15.2.0 / UCRT64)
-* **IDE/Editor:** VS Code (with C/C++ Extension Pack)
-* **Version Control:** Git v2.53.0 & GitHub Desktop
+* **Compiler:** GCC (Linux Native)
+* **IDE/Editor:** VS Code (with WSL & C/C++ Extension Pack)
+* **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
 > Learn this pointer. Practice building a bank account class with deposit, withdraw, display, and method chaining for updating account holder name.
