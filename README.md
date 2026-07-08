@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn this pointer. Practice building a bank account class with deposit, withdraw, display, and method chaining for updating account holder name.
+> Learn copy constructor. Practice with a student class, observe when copy constructor is called and how destructor works for each object.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
