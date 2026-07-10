@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn copy constructor. Practice with a student class, observe when copy constructor is called and how destructor works for each object.
+> Learn assignment operator (operator=) in C++. Understand deep copy, self-assignment check, and difference between copy constructor and assignment operator.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
