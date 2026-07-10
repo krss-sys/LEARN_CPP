@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn assignment operator (operator=) in C++. Understand deep copy, self-assignment check, and difference between copy constructor and assignment operator.
+> Practice assignment operator (operator=) with a score management class. Implement deep copy, self-assignment check, and method chaining.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
