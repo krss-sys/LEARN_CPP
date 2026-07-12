@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice assignment operator (operator=) with a score management class. Implement deep copy, self-assignment check, and method chaining.
+> Learn static and const members. Practice employee management with static counter (total employees) and const ID (fixed per employee). Implement const method for display.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
