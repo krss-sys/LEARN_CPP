@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn static and const members. Practice employee management with static counter (total employees) and const ID (fixed per employee). Implement const method for display.
+> Learn friend function and class. Practice with a game character system: attack and heal using friend functions.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
