@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn friend function and class. Practice with a game character system: attack and heal using friend functions.
+> Learn inheritance. Practice with a vehicle management system: base class Xe, derived classes XeMay and OTo, override display method using base class display.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
