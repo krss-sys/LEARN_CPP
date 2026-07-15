@@ -1,4 +1,4 @@
-# 🛡️ LEARN_CPP: From Zero to Systems
+# 🛡️ learn-cpp: From Zero to Systems
 
 This repository serves as a personal archive for my C++ learning journey — from language fundamentals to low-level systems programming. My goal is to build the technical foundation required for distributed systems and infrastructure engineering.
 
