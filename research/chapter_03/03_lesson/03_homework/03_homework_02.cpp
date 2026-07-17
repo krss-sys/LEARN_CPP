@@ -55,5 +55,8 @@ int main() {
     ptr1->tinhDienTich();
     ptr2->tinhDienTich();
 
+    delete ptr1;
+    delete ptr2;
+
     return 0;
 }
