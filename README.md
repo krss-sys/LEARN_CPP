@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn inheritance. Practice with a vehicle management system: base class Xe, derived classes XeMay and OTo, override display method using base class display.
+> Learn virtual function and override. Practice with a shape hierarchy: base class Hinh, derived classes HinhTron and HinhVuong override area calculation.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
