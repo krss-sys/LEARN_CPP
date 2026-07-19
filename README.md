@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn virtual function and override. Practice with a shape hierarchy: base class Hinh, derived classes HinhTron and HinhVuong override area calculation.
+> Learn pure virtual function and abstract class. Practice with employee management: NhanVienVanPhong and NhanVienBanHang override salary calculation.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
