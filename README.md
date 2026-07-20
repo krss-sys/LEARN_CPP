@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn pure virtual function and abstract class. Practice with employee management: NhanVienVanPhong and NhanVienBanHang override salary calculation.
+> Learn polymorphism through pointer and reference. Practice with product management: DienTu and QuanAo override display and discount calculation.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
