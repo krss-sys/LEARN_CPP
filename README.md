@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::vector basics. Practice building a student management system with add, delete, edit, and display using vector
+> Learn vector advanced (iterator, erase, insert). Practice building a number list manager with add (exit by 0), delete by position (exit by 0), insert by position, and display.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
