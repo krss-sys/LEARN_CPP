@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn vector advanced (iterator, erase, insert). Practice building a number list manager with add (exit by 0), delete by position (exit by 0), insert by position, and display.
+> Learn advanced string methods: find(), replace(), substr(), c_str(). Practice string processing: find position, extract substrings, and replace spaces with underscores.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
