@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn advanced string methods: find(), replace(), substr(), c_str(). Practice string processing: find position, extract substrings, and replace spaces with underscores.
+> Learn std::pair - a simple container for two values (first, second). Use make_pair for quick initialization.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
