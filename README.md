@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::list (doubly linked list). Practice building a task manager with push_back, push_front, pop_back, pop_front, and display.
+> Learn stack, queue, and deque. Practice with a number manager using queue for data and stack for undo history.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
