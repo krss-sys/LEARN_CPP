@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn stack, queue, and deque. Practice with a number manager using queue for data and stack for undo history.
+> Learn std::map. Practice student score management with add (exit by "end"), delete, search, and display using map<string, double>.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
