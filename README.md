@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::map. Practice student score management with add (exit by "end"), delete, search, and display using map<string, double>.
+> Learn unordered_map (hash table, O(1) average). Practice building a warehouse management system with add, update, search, delete, and display (WIP).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
