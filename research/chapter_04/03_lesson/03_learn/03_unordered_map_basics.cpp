@@ -31,7 +31,8 @@ int main() {
     }
 
     cout << "\nCount key 'Kiet': " << danhBa.count("Kiet") << endl;
-    cout << "Cout key 'Mai': " << danhBa.count("Mai") << endl;;
+    cout << "Cout key 'Mai': " << danhBa.count("Mai") << endl;
+    ;
 
     return 0;
 }
