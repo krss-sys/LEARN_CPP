@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn unordered_map. Practice warehouse management with class KhoHang (add, update, search, delete, display) using unordered_map<string, int>.
+> Learn set and unordered_set. Practice dictionary management with class TuDien (add, check, delete, display, print first using iterator).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
