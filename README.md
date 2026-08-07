@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn set and unordered_set. Practice dictionary management with class TuDien (add, check, delete, display, print first using iterator).
+> Learn std::sort and std::stable_sort with lambda. Practice sorting vector<pair<string, int>> by name (ascending), age (descending), and stable sort by name.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
