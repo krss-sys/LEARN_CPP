@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::sort and std::stable_sort with lambda. Practice sorting vector<pair<string, int>> by name (ascending), age (descending), and stable sort by name.
+> Learn find and find_if. Practice searching in vector<pair<string, double>> by name and by score condition.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
