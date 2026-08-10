@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn find and find_if. Practice searching in vector<pair<string, double>> by name and by score condition.
+> Learn binary_search. Practice product search by name (binary_search) and by price (find_if) using vector<pair<string, int>>.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
