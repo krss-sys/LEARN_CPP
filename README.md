@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn binary_search. Practice product search by name (binary_search) and by price (find_if) using vector<pair<string, int>>.
+> Learn reverse and copy. Practice reversing vector, copying with pre-allocated size, and copy with back_inserter.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
