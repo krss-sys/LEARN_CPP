@@ -7,7 +7,7 @@ This repository serves as a personal archive for my C++ learning journey — fro
 ## 📂 Project Structure
 To keep things organized, the repository is structured as follows:
 
-* 📂 **research/**: Foundational concepts and core language research.
+* 📂 **learn/**: Foundational concepts and core language research.
 * 📂 **homework/**: Hands-on practice problems to strengthen logical thinking.
 
 ## 🛠️ Tech Stack & Environment
