@@ -1,2 +1,8 @@
-Huynh tuan kiet: 4
-le mai: 2
+huynh tuan kiet: 6
+nguyen hung: 3
+trung khanh: 2
+le mai: 9
+ho ngoc son: 5
+dinh le: 2
+trong kinh': 8
+nguyen an: 1
