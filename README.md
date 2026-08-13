@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn min_element and max_element. Practice finding min/max values in vector and vector<pair> using custom lambda comparator.
+> Learn file streams (ofstream, ifstream, open, close, is_open). Practice writing and reading student data (name + score) from text file.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
