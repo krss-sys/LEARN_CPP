@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn file streams (ofstream, ifstream, open, close, is_open). Practice writing and reading student data (name + score) from text file.
+> Learn binary file (ios::binary, write, read). Practice saving and loading product struct to/from binary file.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
