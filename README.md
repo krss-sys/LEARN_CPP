@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn binary file (ios::binary, write, read). Practice saving and loading product struct to/from binary file.
+> Learn C++17 `std::filesystem` basics.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
