@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn C++17 `std::filesystem` basics.
+> Learn filesystem directory iteration. Practice listing files/folders, filtering .txt files, counting files and total size, and listing subdirectories.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
