@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn filesystem directory iteration. Practice listing files/folders, filtering .txt files, counting files and total size, and listing subdirectories.
+> Learn std::thread basics. Practice creating multiple threads, join(), and sleep_for with a simple counter.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
