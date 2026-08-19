@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::thread basics. Practice creating multiple threads, join(), and sleep_for with a simple counter.
+> Learn passing parameters and ref to thread, sleep_for. Practice with square calculator and counter threads.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
