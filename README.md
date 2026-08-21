@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn passing parameters and ref to thread, sleep_for. Practice with square calculator and counter threads.
+> Learn std::jthread and stop_token (C++20). Practice cooperative cancellation with a worker thread that stops after 5 seconds.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
