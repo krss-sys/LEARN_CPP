@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::jthread and stop_token (C++20). Practice cooperative cancellation with a worker thread that stops after 5 seconds.
+> Learn std::mutex and std::lock_guard for thread-safe shared data. Practice protecting a counter with mutex to avoid race conditions.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
