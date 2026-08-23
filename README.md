@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::mutex and std::lock_guard for thread-safe shared data. Practice protecting a counter with mutex to avoid race conditions.
+> Practice mutex and lock_guard with 3 threads incrementing a shared counter. Each thread increments 5 times, total = 15. Use jthread (C++20) for auto-join.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
