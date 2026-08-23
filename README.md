@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice mutex and lock_guard with 3 threads incrementing a shared counter. Each thread increments 5 times, total = 15. Use jthread (C++20) for auto-join.
+> Learn std::unique_lock with 3 features: early unlock, defer_lock, and try_to_lock. Practice with a bank account class using jthread.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
