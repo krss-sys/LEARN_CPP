@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::unique_lock with 3 features: early unlock, defer_lock, and try_to_lock. Practice with a bank account class using jthread.
+> Learn std::atomic and deadlock prevention. Practice atomic counter with 2 threads and demonstrate deadlock with lock_guard.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
