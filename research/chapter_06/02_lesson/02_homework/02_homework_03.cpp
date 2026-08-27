@@ -12,6 +12,7 @@ void tang() {
 }
 
 int main() {
+    // test git diff
     std::cout << "\n=== ATOMIC ===\n";
     {
         std::jthread t1(tang);

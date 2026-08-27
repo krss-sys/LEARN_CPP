@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn std::atomic and deadlock prevention. Practice atomic counter with 2 threads and demonstrate deadlock with lock_guard.
+> Learn condition_variable with wait/notify pattern. Practice worker thread waiting for data from main thread.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
