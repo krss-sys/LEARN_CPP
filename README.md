@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn condition_variable with wait/notify pattern. Practice worker thread waiting for data from main thread.
+> Learn Producer-Consumer pattern using condition_variable. Practice with multiple producers and consumers sharing a queue.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
