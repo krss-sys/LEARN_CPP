@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn Producer-Consumer pattern using condition_variable. Practice with multiple producers and consumers sharing a queue.
+> Learn function template with multiple types. Practice min, sum, and comparison functions for int, double, and string.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
