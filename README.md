@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn function template with multiple types. Practice min, sum, and comparison functions for int, double, and string.
+> Learn class template with Box<T>. Practice storing and modifying values of different types (int, double, string).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
