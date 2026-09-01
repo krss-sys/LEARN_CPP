@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn class template with Box<T>. Practice storing and modifying values of different types (int, double, string).
+> Learn template specialization for function and class templates. Practice custom behavior for specific types (int, string, bool) while keeping generic logic for others.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
