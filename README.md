@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn template specialization for function and class templates. Practice custom behavior for specific types (int, string, bool) while keeping generic logic for others.
+> Learn typename vs class in templates. Understand that both are equivalent, and typename is preferred for clarity.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
