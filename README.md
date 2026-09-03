@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Learn typename vs class in templates. Understand that both are equivalent, and typename is preferred for clarity.
+> Learn lambda expression and capture. Practice lambda with no params, with params, capture by value, by reference, and specific capture.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
