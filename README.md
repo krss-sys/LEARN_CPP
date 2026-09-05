@@ -18,6 +18,6 @@ To keep things organized, the repository is structured as follows:
 * **Version Control:** Git & GitHub Desktop
 
 ## 📝 Dev Log
-> Practice lambda with STL algorithms: sort (custom order, even-first), find_if (first even, first > 10), for_each (print strings with length). Apply to vector<int> and vector<pair>.
+> Learn variadic template. Practice maxAll function that accepts any number of arguments and returns the maximum value.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
